@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.535, user-scalable=no"">
+    <meta name="viewport" content="width=device-width, user-scalable=no"">
 	<meta name="robots" content="noindex">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
@@ -13,7 +13,7 @@
 <style>
 
 #fullcontainer {
-            max-height: 66.4vh; /* Adjust the height based on your content */
+            max-height: 78.4vh; /* Adjust the height based on your content */
             overflow-y: auto; /* Enable vertical scrolling for metrics */
             margin-bottom: 11px; /* Optional: Add margin for spacing */
         }
@@ -24,8 +24,7 @@
 	margin-bottom: 18px; /* Optional: Add margin for spacing */
 
     }
-}
- 
+} 
 
 .spinner {
   display: none;
@@ -190,9 +189,14 @@ cursor: pointer;
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
-
+	
+@media only screen and (max-width: 768px) {
     body {
-          zoom: 119.2%; /* Adjust the percentage as needed */
+        zoom: 119.2%;
+    }
+}
+	
+    body {
     font-family: Arial, Helvetica, sans-serif; /* Use Font1 as the primary font */
     font-size: 14.7px;
     color: #000000c4;
