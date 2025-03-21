@@ -28,6 +28,12 @@
     "allCsv": "vs Top 7 Ligues, par 90 min",
     "allCsvWithMinutes": "vs Top 7 Ligues"
   },
+  "rankSuffixes": {
+    "st": "e",
+    "nd": "e",
+    "rd": "e",
+    "th": "e"
+  },
   "metrics": {
     "Goals": "Buts",
     "Assists": "Passes décisives",
